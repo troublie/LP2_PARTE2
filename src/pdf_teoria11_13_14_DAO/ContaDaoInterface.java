@@ -13,5 +13,9 @@ import java.util.List;
  */
 public interface ContaDaoInterface {
 
-    List<Conta>  = listarTudo();
+    public List<Conta> listarTudo();
+
+    public void salvarNova(Conta conta);
+
+    public Conta buscar(long nroConta);
 }

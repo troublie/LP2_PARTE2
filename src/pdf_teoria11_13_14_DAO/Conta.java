@@ -15,7 +15,12 @@ public class Conta {
 
     private long numero;
     private BigDecimal saldo;
-
+    
+    public Conta(long numConta, BigDecimal saldo){
+        this.numero = numConta;
+        this.saldo = saldo;
+    }
+    
     public long getNumero() {
         return numero;
     }

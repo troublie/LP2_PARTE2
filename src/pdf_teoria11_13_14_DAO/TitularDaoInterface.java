@@ -5,11 +5,14 @@
  */
 package pdf_teoria11_13_14_DAO;
 
+import static java.util.Collections.list;
+import java.util.List;
+
 /**
  *
  * @author juliano.lopes
  */
 public interface TitularDaoInterface {
 
-    list<Titular>  = listarTudo();
+    public List<Titular> listarTudo();
 }
